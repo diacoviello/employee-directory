@@ -1,7 +1,7 @@
 import React from 'react';
-import Form from './components/Form';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+import Form from './components/Form';
 import EmployeeTable from './components/EmployeeTable';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
       </Form>
       <EmployeeTable>
-        
+
       </EmployeeTable>
     </div>
 
