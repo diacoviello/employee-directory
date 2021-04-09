@@ -2,6 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import Form from './components/Form';
+import Footer from "./components/Footer";
 import EmployeeTable from './components/EmployeeTable';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <EmployeeTable>
 
       </EmployeeTable>
+      <Footer />
     </div>
 
 
